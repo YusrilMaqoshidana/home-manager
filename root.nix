@@ -3,8 +3,8 @@
 {
   # Root
   imports = [
-    ./../module/config.nix
-    ./../module/packages.nix
+    ./modules/config.nix
+    ./modules/packages.nix
   ];
 
 

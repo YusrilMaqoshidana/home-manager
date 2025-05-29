@@ -14,26 +14,6 @@
     enable = true;
     userName = "Moh. Yusril Maqoshidana";
     userEmail = "yusrilkingsr07@gmail.com";
-    ignores = [ 
-      # Flutter/Dart ignores
-      ".dart_tool/ls
-flake.lock  flake.nix  module/  users/"
-      ".flutter-plugins"
-      ".flutter-plugins-dependencies"
-      ".packages"
-      "build/"
-      "ios/Pods/"
-      
-      # Android ignores
-      "*.apk"
-      "*.dex"
-      "*.class"
-      ".gradle/"
-      "local.properties"
-      "captures/"
-      ".externalNativeBuild/"
-      ".cxx/"
-    ];
   };
 
   # Configurasi BAT
@@ -53,10 +33,14 @@ flake.lock  flake.nix  module/  users/"
      mv = "mv iv";
      rm = "trash-put";
      cat = "bat";
-     gst = "git status";
-     gco = "git checkout";
+     gs = "git status";
+     gc = "git checkout";
      gcm = "git commit -m";
      ga = "git add";
+     gb = "git branch";
+     gi = "git init";
+     gcl = "git clone";
+     gl = "git log";
    }; 
   };
   

@@ -18,5 +18,6 @@
        pkgs.postgresql_16
        pkgs.kafkactl
        pkgs.firefox
+       pkgs.flutter
   ];
 }
