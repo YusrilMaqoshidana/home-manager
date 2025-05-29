@@ -11,12 +11,12 @@
        pkgs.jetbrains.idea-ultimate
        pkgs.maven
        pkgs.gradle
-       pkgs.firefox
        pkgs.zoom-us
        pkgs.postman
        pkgs.spotify
        pkgs.pgadmin4-desktopmode
        pkgs.postgresql_16
        pkgs.kafkactl
+       pkgs.firefox
   ];
 }

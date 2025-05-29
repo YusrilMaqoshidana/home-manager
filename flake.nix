@@ -9,20 +9,6 @@
   };
 
   outputs = { nixpkgs, home-manager, ... }: {
-    homeConfigurations.usereal = home-manager.lib.homeManagerConfiguration {
-      pkgs = import nixpkgs {
-        system = "x86_64-linux";
-      };
-
-      modules = [
-        {
-          home.username = "usereal";                                                
-          home.homeDirectory = "/home/usereal";
-        }  
-        ./users/usereal.nix
-      ];
-    };
-
     homeConfigurations.root = home-manager.lib.homeManagerConfiguration {
       pkgs = import nixpkgs {
         system = "x86_64-linux";
