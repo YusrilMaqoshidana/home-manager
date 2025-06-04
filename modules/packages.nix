@@ -19,5 +19,6 @@
        pkgs.kafkactl
        pkgs.firefox
        pkgs.flutter
+       pkgs.wpsoffice
   ];
 }
