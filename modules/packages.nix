@@ -4,6 +4,7 @@
   home.packages = [
        pkgs.trash-cli 
        pkgs.jdk17
+       pkgs.jdk21_headless
        pkgs.flatpak
        pkgs.neofetch
        pkgs.go
